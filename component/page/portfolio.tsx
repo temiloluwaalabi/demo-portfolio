@@ -427,21 +427,21 @@ const Portfolio = () => {
 
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="mb-8">
-            <div className="size-20 lg:size-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 p-1">
+            <div className="size-24 lg:size-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 p-1">
               <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
-                <User className="w-16 h-16 text-blue-400" />
+                <User className="size-12 lg:size-16 text-blue-400" />
               </div>
             </div>
           </div>
 
-          <h1 className="text-3xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-7xl font-bold mb-6 leading-tight">
             <span className="block">Temiloluwa</span>
             <span className="block bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
               Emmanuel Alabi
             </span>
           </h1>
 
-          <p className="text-lg md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
+          <p className="text-base md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
             Frontend Developer crafting exceptional digital experiences with
             modern technologies
           </p>
