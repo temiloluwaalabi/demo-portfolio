@@ -346,7 +346,7 @@ const Portfolio = () => {
   const displayedProjects = filteredProjects.slice(0, visibleProjects);
 
   const ScrollIndicator = () => (
-    <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+    <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 animate-bounce">
       <ChevronDown className="w-6 h-6 text-white/70" />
     </div>
   );
@@ -417,7 +417,7 @@ const Portfolio = () => {
       {/* Hero Section */}
       <section
         id="home"
-        className="min-h-screen flex items-center justify-center relative overflow-hidden"
+        className="min-h-screen flex py-6 items-center justify-center relative overflow-hidden"
       >
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/20 to-slate-900"></div>
         <div className="absolute inset-0">
@@ -427,21 +427,21 @@ const Portfolio = () => {
 
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 p-1">
+            <div className="size-20 lg:size-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 p-1">
               <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
                 <User className="w-16 h-16 text-blue-400" />
               </div>
             </div>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-3xl md:text-7xl font-bold mb-6 leading-tight">
             <span className="block">Temiloluwa</span>
             <span className="block bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
               Emmanuel Alabi
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
+          <p className="text-lg md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
             Frontend Developer crafting exceptional digital experiences with
             modern technologies
           </p>
